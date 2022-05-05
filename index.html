@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Paid Music Streaming Application ​Recommendation</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img"> 
+                    Talk To Music
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#prediction" class="nav__link">Prediction</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                    </ul>
+
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">Paid Music Streaming  <br> Application ​Recommendation</h1>
+                        <p class="home__description">
+                            แนะนำแอพพลิชั่นฟังเพลงแบบเสียเงิน<br> 
+                            ที่จะช่วยเลือกแอพพลิเคชั่นให้เหมาะกับไลฟ์สไตล์ของคุณ
+                        </p>
+                        <a href="#prediction" class="button">Get Started</a>
+                        <a href="#prediction" class="nav__link"></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== Prediction ====================-->
+            <section class="prediction section container" id="prediction">
+                <div class="prediction__container grid">
+                    <div class="prediction__data">
+                        <h3 class="section__title prediction__title">
+                            <br><br>Question
+                        </h3>
+                        <h1 class="predictione__description">
+                            ตอบคำถาม เพื่อให้เราแนะนำแอพพลิเคชันที่เหมาะกับคุณ
+                        </h1>
+                        <br>
+                        <div class="form-check">
+                            <!-- =========== Q1 ========== -->
+                            คุณใช้แอปพลิเคชันดังกล่าวดู mv เพลงใช่หรือไม่<br><br>
+                            <input class="form-check-input" type="radio" name="q1" id="choice1" value="option1" >
+                            <label class="form-check-label" for="choice1">
+                              Yes
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="choice2" value="option2">
+                            <label class="form-check-label" for="choice2">
+                              No
+                            </label>
+                          </div>
+                            <!-- ========== Q2 =========== -->
+                          <div class="form-check">
+                            คุณใช้แอปพลิเคชันดังกล่าวดู live stream ใช่หรือไม่<br><br>
+                            <input class="form-check-input" type="radio" name="q2" id="choice1" value="option1" >
+                            <label class="form-check-label" for="choice1">
+                              Yes
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="choice2" value="option2">
+                            <label class="form-check-label" for="choice2">
+                              No
+                            </label>
+                          </div>
+                          <!-- =========== Q3 ========== -->
+                          <div class="form-check">
+                            แนวเพลงที่คุณชอบฟัง<br><br>
+                            <input class="form-check-input" type="radio" name="q3" id="choice1" value="option1" >
+                            <label class="form-check-label" for="choice1">
+                              Thai
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="choice2" value="option2">
+                            <label class="form-check-label" for="choice2">
+                              Inter (e.g. Eng, Japanes, Korea)
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="choice2" value="option2">
+                            <label class="form-check-label" for="choice2">
+                              Both 
+                            </label>
+                          </div>
+                            <!-- ========== Q4 ========== -->
+                          <div class="form-check">
+                            คุณใช้แอปพลิเคชันดังกล่าวฟังพอดแคสต์, นิทานใช่หรือไม่<br><br>
+                            <input class="form-check-input" type="radio" name="q4" id="choice1" value="option1" >
+                            <label class="form-check-label" for="choice1">
+                              Yes
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="choice2" value="option2">
+                            <label class="form-check-label" for="choice2">
+                              No
+                            </label>
+                          </div>
+                            <!-- ========== Q5 ========== -->
+                          <div class="form-check">
+                            คุณใช้แอปพลิเคชันดังกล่าวสร้างและแชร์เพลย์ลิสต์ใช่หรือไม่<br><br>
+                            <input class="form-check-input" type="radio" name="q5" id="choice1" value="option1" >
+                            <label class="form-check-label" for="choice1">
+                              Yes
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q5" id="choice2" value="option2">
+                            <label class="form-check-label" for="choice2">
+                              No
+                            </label>
+                          </div>
+                            <!-- ========== Q6 ========== -->
+                          <div class="form-check">
+                            คุณฟังเพลงบนแพลตฟอร์มใดเป็นหลัก<br><br>
+                            <input class="form-check-input" type="radio" name="q6" id="choice1" value="option1">
+                            <label class="form-check-label" for="choice1">
+                              Computer / Notebook
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q6" id="choice2" value="option2">
+                            <label class="form-check-label" for="choice2">
+                              Mobile / Tablet
+                            </label>
+                          </div>
+        
+                        </div>
+
+                        <br><input class="button" type="button" value="predict" onclick="predict" />
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== About ====================-->
+            <section class="about section container" id="about">
+                <h1 class="section__title">About<br><br>Objective</h1>
+            
+
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="assets/img/628553.jpg" alt="" class="new__img">
+                                <h3 class="new__price"><br>เพื่อดูแนวโน้มการใช้งานในแต่ละapplication</h3>
+                                </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="assets/img/dump.jpg" alt="" class="new__img">
+                                <h3 class="new__price"><br>ทำนายพฤติกรรมของผู้ใช้application</h3>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="assets/img/12345.jpg" alt="" class="new__img">
+                                <h3 class="new__price"><br>ใช้ประกอบการตัดสินใจในการเลือกใช้application</h3>
+                            </article>
+
+                            
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+         <!--==================== Member ====================-->
+         
+            <h3><center>Members</h3></center>
+            <div class="about__container grid">
+                <article class="about__card">
+                    <img src="assets/img/gift1.png" alt="" class="about__img">
+                    
+                    
+                    <center class="about__price">62050175</center>
+                    <center class="about__title">ธัญพิชชา สอนสะอาด</center>
+                </article>
+
+                <article class="about__card">
+                    <img src="assets/img/gift2.png" alt="" class="about__img">
+                    
+                    
+                    <center class="about__price">62050178</center>
+                    <center class="about__title">นภสร ตันจิตติวัฒน์</center>
+                </article>
+
+                <article class="about__card">
+                    <img src="assets/img/gift3.png" alt="" class="about__img">
+                
+                    <center class="about__price">62050179 </center>
+                    <center class="about__title">นภัสสร สีนนตรี</center>
+                </article>
+
+                <article class="about__card">
+                    <img src="assets/img/gift4.png" alt="" class="about__img">
+                    
+                    <center class="about__price">62050217 </center>
+                    <center class="about__title">ระพีพัฒน์ เนตรพลับ</center>
+                </article>
+
+                <article class="about__card">
+                    <img src="assets/img/gift5.png" alt="" class="about__img">
+                    
+                    <center  class="aboutprice">62050224 </center >
+                    <center  class="abouttitle">วิมลลักษณ์ พินธุศิรกุล</center >
+                </article>
+
+                <article class="about__card">
+                    <img src="assets/img/gift6.png" alt="" class="about__img">
+                    
+                    <center class="about__price">62050228</center>
+                    <center class="about__title">ศาโนช หมั่นมาก</center>
+                </article>
+
+            </div>
+            <br><br><br><br>
+        </section>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        
+        <!--=============== jQuery JS ===============-->
+        <script src="jQuery.min.js"></script>
+    </body>
+</html>
